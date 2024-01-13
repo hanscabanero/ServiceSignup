@@ -23,17 +23,17 @@ body {
 .signup-card {
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    width: 600px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: lightgrey;
+    background-color: #E8E8E8;
     border-radius: 20px;
     gap: 16px;
     font-family: 'Raleway',serif;
-    padding: 16px;
+    padding: 50px;
     position: absolute;     
-    align-items: center;
-    top: 30%;
-  left: 34%;
+    top: 20%;
+    left: 31%;
+    margin: 20px;
 }
 .header,
 .footer {
@@ -42,6 +42,8 @@ body {
   padding: 16px;
   background-color: #001226;
   color: white;
+  font-family: 'Raleway',serif;
+
 }
 button {
     border: none;
@@ -53,4 +55,35 @@ button {
 }
 .material-symbols-outlined {
     color: grey;
+    font-size: 35px !important;
+}
+input {
+  height: 25px;
+  margin: 20px;
+  border : 0px solid #000000;
+  border-bottom-width : 1px;
+  background-color: transparent;
+  font-size: 16px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  margin: 50px;
+}
+li {
+  display: flex;
+  align-items: center;
+  
+}
+
+#signup {
+  font-size: 36px;
+  font-weight:900;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+#createacc {
+  max-width: 240px;
 }
